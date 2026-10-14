@@ -1,0 +1,27 @@
+{
+  "model": "YOLO11n",
+  "imgsz": 320,
+  "epochs": 30,
+  "batch": 16,
+  "device": "cpu",
+  "dataset": {
+    "train_images": 600,
+    "val_images": 150,
+    "num_classes": 5
+  },
+  "train_minutes": 38.1,
+  "metrics": {
+    "mAP50": 0.9627,
+    "mAP50_95": 0.8235,
+    "precision": 0.9893,
+    "recall": 0.8953
+  },
+  "infer_ms_per_image": 39.1,
+  "per_class_AP50": {
+    "0": 0.9751,
+    "1": 0.9564,
+    "2": 0.9123,
+    "3": 0.9821,
+    "4": 0.9873
+  }
+}
